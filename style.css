@@ -1,0 +1,100 @@
+h1 A {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 30px;
+}
+
+h1 em {
+    font-size: 18px;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    float: none;
+    background-color:rgb(202, 202, 202)
+}
+
+body header {
+    text-align: center;
+}
+
+body header p {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+body header p A {
+    color: #000000;
+}
+
+.headdiv {
+    border-bottom: 2px solid black;
+}
+
+.leftdiv {
+    margin-top: 25px;
+    float: left;
+    text-align: center;
+    width: 49%;
+  /*  background-color: white;    */
+}
+
+.leftdiv2 {
+    float: left;  
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    width: 49%;
+   /* background-color: rgb(121, 121, 121); */
+}
+
+.leftdiv2 b {
+    text-decoration: underline;
+    margin-left: 100px;
+}
+
+.leftdiv2 p {
+    margin-left: 130px;
+}
+
+.rightdiv {
+    margin-top: 25px;
+    float: right;
+    text-align: center;
+    width: 49%;
+ /*   background-color: white;    */
+}
+
+.rightdiv2 {
+    float: right;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    width: 49%;
+  /*  background-color: rgb(121, 121, 121);*/
+}
+
+.rightdiv2 b {
+    margin-left: 100px;
+}
+
+.rightdiv2 p {
+    margin-left: 130px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tab {
+    margin-left: 50px;
+    font-size: 16px;
+}
