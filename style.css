@@ -16,9 +16,16 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     float: none;
-    background-color:rgb(202, 202, 202)
+    height: 100%;
 }
 
+.bg {
+    background-image: url("https://cdn.decorpad.com/photos/2019/03/05/gray-brushstrokes-modern-blue-ombre-wallpaper-mural.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 body header {
     text-align: center;
 }
@@ -42,7 +49,6 @@ body header p A {
     float: left;
     text-align: center;
     width: 49%;
-  /*  background-color: white;    */
 }
 
 .leftdiv2 {
@@ -50,7 +56,6 @@ body header p A {
     font-size: 18px;
     font-family: Helvetica, sans-serif;
     width: 49%;
-   /* background-color: rgb(121, 121, 121); */
 }
 
 .leftdiv2 b {
