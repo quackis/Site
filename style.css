@@ -89,6 +89,11 @@ body header p A {
     margin-left: 75px;
 }
 
+.rightdiv2 A {
+    text-decoration: underline;
+    color:#000000;
+}
+
 h2 {
     font-size: 25px;
     font-family: "Lato", Helvetica, sans-serif;
