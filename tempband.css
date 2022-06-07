@@ -26,13 +26,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-body header p {
-    text-align: center;
+body header {
     padding-top: 6px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+body header span {
+    
     font-family: "Lato", Helvetica, sans-serif;
     font-size: 18px;
-    margin-bottom: 8px;
+    
     color: #000000;
 }
 
