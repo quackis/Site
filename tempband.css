@@ -32,11 +32,12 @@ body header {
     margin-bottom: 8px;
 }
 
-body header span {
-    
+body header span {   
     font-family: "Lato", Helvetica, sans-serif;
     font-size: 18px;
-    
+}
+
+body header span A {
     color: #000000;
 }
 
@@ -44,11 +45,34 @@ body header span {
     border-bottom: 2px solid black;
 }
 
+.titlediv {
+    width: 100%;
+}
+
 .leftdiv {
     margin-top: 25px;
     float: left;
     text-align: center;
-    width: 49%;
+    width: 33%;
+}
+
+.bandimage {
+    height: 150px;
+    width: 150px;
+}
+
+.bandimage img {
+    margin-left: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.middiv {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    font-size: 25px;
+    
 }
 
 .leftdiv2 {
@@ -73,7 +97,7 @@ body header span {
     margin-top: 25px;
     float: right;
     text-align: center;
-    width: 49%;
+    width: 33%;
 }
 
 .rightdiv2 {
@@ -98,6 +122,12 @@ h2 {
     border-bottom: 2px solid black;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+h3 {
+    margin-top: 25px;
+    font-size: 35px;
+    font-family: "Arial Black", Arial, sans-serif
 }
 
 .tab {
