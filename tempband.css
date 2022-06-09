@@ -1,15 +1,3 @@
-h1 A {
-    text-decoration: none;
-    color: #000000;
-    font-family: "Arial Black", Arial, sans-serif;
-    font-size: 30px;
-}
-
-h1 em {
-    font-size: 20px;
-    color: #000000;
-    font-family: "Lato", Arial, sans-serif;
-}
 
 body {
     min-width: 1000px;
@@ -42,18 +30,16 @@ body header span A {
 }
 
 .headdiv {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
 
-.titlediv {
-    width: 100%;
-}
-
 .leftdiv {
-    margin-top: 25px;
+    margin-top: 0px;
     float: left;
-    text-align: center;
     width: 33%;
+    height: 25%;
 }
 
 .bandimage {
@@ -62,72 +48,100 @@ body header span A {
 }
 
 .bandimage img {
-    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 20px;
     height: 250px;
     width: 250px;
 }
 
 .middiv {
-    text-align: center;
+    text-align: left;
     width: 33%;
     display: inline-block;
     font-size: 25px;
-    
+    height: 25%;
 }
 
-.leftdiv2 {
-    float: left;  
-    font-size: 20px;
-    font-family: "Lato", Helvetica, sans-serif;
-    width: 49%;
-}
-
-.leftdiv2 b {
-    text-decoration: underline;
-    margin-left: 100px;
-    font-size: 20px;
-}
-
-.leftdiv2 p {
-    margin-left: 130px;
+.middiv p {
     font-size: 18px;
+    font-family: "Lato ",Helvetica, sans-serif;
+    margin-top: 0px;
 }
 
 .rightdiv {
-    margin-top: 25px;
+    margin-top: 0px;
     float: right;
     text-align: center;
     width: 33%;
+    height: 25%;
 }
 
-.rightdiv2 {
-    float: right;
-    font-size: 18px;
+.rightdiv p {
+    margin-top: 0px;
+    font-size: 16px;
     font-family: "Lato", Helvetica, sans-serif;
-    width: 49%;
+    text-align: left;
 }
 
-.rightdiv2 b {
-    margin-left: 75px;
+.borderdiv {
+    margin-top: 10px;
+    border-bottom: 2px solid black;
 }
 
-.rightdiv2 A {
-    text-decoration: underline;
-    color:#000000;
+.discogdiv {
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+
+.tablediv {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 50%;
+}
+table, th, td {
+    border: solid 2px black; 
+    border-collapse: collapse;
+}
+
+.albumimg {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.albumimg img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: "Lato", Helvetica, sans-serif;
+    text-align: center;
 }
 
 h2 {
-    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 35px;
     font-family: "Lato", Helvetica, sans-serif;
-    border-bottom: 2px solid black;
-    margin-left: 30px;
-    margin-right: 30px;
+    text-align: center;
 }
 
 h3 {
-    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
     font-size: 35px;
-    font-family: "Arial Black", Arial, sans-serif
+    font-family: "Lato", Helvetica, sans-serif;
 }
 
 .tab {
