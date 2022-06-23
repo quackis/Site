@@ -5,18 +5,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="/Music/byband.js"></script>
     </head>
 
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myDIV");
-          if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-          }
-        }
-    </script>
 
     <body>      
         <div class="headdiv">           
@@ -46,12 +37,11 @@
         </div>
 
         <div class="borderdiv">
-
         </div>
 
         <div class="discogdiv">
-            <h1><button onclick="myFunction()">#</button>
-                <button onclick="myFunction()">A</button>
+            <h1><button onclick="num()">#</button>               
+                <button onclick="a()">A</button>
                 <button onclick="myFunction()">B</button>
                 <button onclick="myFunction()">C</button>
                 <button onclick="myFunction()">D</button>
@@ -77,8 +67,14 @@
                 <button onclick="myFunction()">X</button>
                 <button onclick="myFunction()">Y</button>
                 <button onclick="myFunction()">Z</button>
-                <div id="myDIV">
-                    This is my DIV element.
+                
+                <div class="borderdiv">
+                </div>
+                <div id="num">
+                    ...............
+                </div>
+                <div id="a">
+                    aaaaaaaaaaaaaaa
                 </div>
             </h1>
         </div>
