@@ -1,0 +1,164 @@
+body {
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    float: none;
+    height: 100%;
+}
+
+.bg {
+    background-image: url("https://cdn.decorpad.com/photos/2019/03/05/gray-brushstrokes-modern-blue-ombre-wallpaper-mural.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body header {
+    padding-top: 6px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+body header span {   
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body header span A {
+    color: #000000;
+}
+
+.headdiv {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.middiv {
+    text-align: center;
+    font-size: 40px;
+}
+
+.middiv p {
+    font-size: 18px;
+    font-family: "Lato ",Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.borderdiv {
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+.discogdiv {
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+
+.tablediv {
+    width: 100%;
+}
+
+table {
+
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    vertical-align: top;
+    width: 50%;
+}
+
+td p {
+    font-family: "Lato", Helvetica, sans-serif;
+    float: left;
+    margin: 5px;
+}
+
+td img {
+    float: left;
+}
+
+td span {
+    display: inline-block;
+    width: 285px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: "Lato", Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: solid 2px black; 
+    border-collapse: collapse;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Lato", Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.tab {
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
+
+  button {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
