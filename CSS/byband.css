@@ -51,7 +51,7 @@ body header span A {
     border-bottom: 2px solid black;
 }
 
-.discogdiv {
+.selectordiv {
     margin-top: 25px;
     text-align: center;
     font-family: "Lato", Helvetica, sans-serif;
@@ -153,30 +153,317 @@ h5 {
     margin-top: 20px;
 }
 
+.button {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: 3px;
+}
+
+ul {
+    margin-left: 10px;
+    display: flex;
+    width: 98%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 75%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+li {
+    font-size: 18px;
+    width: 33%;
+    float: left;
+}
+
+li a {
+    color: black;
+}
+
+
+
+
+
+
+
+
 #num {
     display: none;
     width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
     margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
 }
-
 #a {
     display: none;
     width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
-}
-
-button {
-    font-family: "Lato", Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: underline;
-    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
     background-color: transparent;
-    cursor: pointer;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#b {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#c {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#d {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#e {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#f {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#g {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#h {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#i {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#j {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#k {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#l {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#m {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#n {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#o {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#p {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#q {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#r {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#s {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#t {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#u {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#v {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#w {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#x {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#y {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+#z {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
 }
